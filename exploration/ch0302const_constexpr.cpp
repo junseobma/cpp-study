@@ -1,9 +1,9 @@
 ﻿// const, constexpr 차이점
 
-//			const							constexpr(constant expression)
-// 역할:	변수/함수의 값 변경 방지		컴파일 시간에 값이 확정됨
-// 적용:	런타임 또는 컴파일 타임			반드시 컴파일 타임
-// 사용:	객체, 포인터, 함수				상수, 함수, 반복문 최적화
+//       const                      constexpr(constant expression)
+// 역할: 변수/함수의 값 변경 방지   컴파일 시간에 값이 확정됨
+// 적용: 런타임 또는 컴파일 타임    반드시 컴파일 타임
+// 사용: 객체, 포인터, 함수         상수, 함수, 반복문 최적화
 
 #include <iostream>
 
